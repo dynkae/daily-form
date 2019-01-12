@@ -7,6 +7,7 @@ body {
   margin: 0;
   min-height: 100vh;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 .form-container {
   margin: 0 auto;
@@ -16,7 +17,8 @@ body {
   height: 471px;
   border-radius: 0.5%;
   padding: 10px 31px 31px 31px;
-  margin-top: calc(50% - 231px);
+  margin-top: 61px;
+  /* margin-top: calc(50% - 231px);  Это просто не поняла, форма должна быть по середине или нет*/
 }
 a {
   text-decoration: none;
